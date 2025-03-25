@@ -42,7 +42,7 @@
                 manager: getTeamFromTeamManagers(leagueTeamManagers, rosterID),
                 powerScore: 0,
             }
-            const seasonEnd = 18;
+            const seasonEnd = 17;
             if(week >= seasonEnd) {
                 seasonOver = true;
             }
