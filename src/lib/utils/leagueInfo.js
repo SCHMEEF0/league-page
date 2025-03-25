@@ -1,6 +1,6 @@
 /*   STEP 1   */
-export const leagueID = "1075885093090099200"; // your league ID
-export const leagueName = "#2 THE GLADIATOR"; // your league name
+export const leagueID = "1197651994358054912"; // your league ID
+export const leagueName = "#1 ROYAL RUMBLE"; // your league name
 export const dues = 7; // (optional) used in template constitution page
 export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
@@ -20,7 +20,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 
 export const managers = [
     // {
-    //   "roster": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "dmaca9": 1,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
     //   "name": "Your Name",
     //   
     //   "location": "", // (optional)
@@ -42,7 +42,7 @@ export const managers = [
     //   "preferredContact": "SLEEPER", // 'Text', 'WhatsApp', 'Sleeper', 'Email', 'Phone', 'Discord', and 'Carrier Pigeon' are currently supplied in the template
     // },
     // {
-    //   "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
+       "roster": 2,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
     //   "name": "Your Name",
     //   "tookOver": 2020, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     //   "location": "Brooklyn", // (optional)
