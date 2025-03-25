@@ -8,7 +8,7 @@ const Home = () => {
         const fetchLeagueManagers = async () => {
             const leagueID = "1197651994358054912"; // Your league ID
             try {
-                const response = await fetch(`https://api.sleeper.app/v1/league/${leagueID}/users`);
+                const response = await fetch(`https://api.sleeper.app/v1/league/${1197651994358054912}/users`);
                 const managers = await response.json();
                 const usernames = Object.keys(managers).map(userId => managers[userId].display_name);
                 setUsernames(usernames);
